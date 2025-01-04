@@ -1,0 +1,26 @@
+input{
+   font-size: 20px;
+   border: 1px solid black;
+   margin-bottom: 10px;
+   width: 200px;
+}
+center{
+    padding: 100px;
+    height: 20px;
+}
+table {
+    width: 200px;
+    table-layout:fixed;
+    border-collapse: collapse;
+   
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
