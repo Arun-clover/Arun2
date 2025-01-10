@@ -24,3 +24,13 @@ th, td {
 th {
     background-color: #f4f4f4;
 }
+
+div{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(84, 106, 52);
+}
+body{
+    background-color: rgb(71, 107, 107);
+}
