@@ -27,10 +27,16 @@ th {
 
 div{
     border: 1px solid black;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(84, 106, 52);
+
 }
 body{
     background-color: rgb(71, 107, 107);
+}
+button{
+    background-color: darkblue;
+    border-radius: 2px;
+    color: aliceblue;
 }

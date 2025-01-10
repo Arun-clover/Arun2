@@ -12,31 +12,41 @@
 <body style="text-align: center;">
     <center>
     <div>
-          <h1><input > </h1>
+          <h1><input  type="text" id="display" readonly> </h1>
      <table>
         <tr>
-            <td><button id="one" onclick="numone()">1</button></td>
-            <td><button id="two">2</button></td>
-            <td><button>3</button></td>
-            <td><button>/</button></td>
+            <td><button onclick="appendValue('1')">1</button></td>
+            <td><button onclick="appendValue('2')" >2</button></td>
+            <td><button onclick="appendValue('3')" >3</button></td>
+            <td><button onclick="appendValue('/')" >/</button></td>
+            
         </tr>
         <tr>
-            <td><button>4</button></td>
-            <td><button>5</button></td>
-            <td><button>6</button></td>
-            <td><button>X</button></td>
+            <td><button onclick="appendValue('4')">4</button></td>
+            <td><button onclick="appendValue('5')">5</button></td>
+            <td><button onclick="appendValue('6')">6</button></td>
+            <td><button onclick="appendValue('*')">*</button></td>
+            
         </tr>
         <tr>
-            <td><button>7</button></td>
-            <td><button>8</button></td>
-            <td><button>9</button></td>
-            <td><button>-</button></td>
+            <td><button onclick="appendValue('7')">7</button></td>
+            <td><button onclick="appendValue('8')">8</button></td>
+            <td><button onclick="appendValue('9')">9</button></td>
+            <td><button onclick="appendValue('-')">-</button></td>
+            
         </tr>
         <tr>
-            <td><button>,</button></td>
-            <td><button>o</button></td>
-            <td><button>.</button></td>
-            <td><button>+</button></td>
+            <td><button onclick="appendValue(',')">,</button></td>
+            <td><button onclick="appendValue('0')">0</button></td>
+            <td><button onclick="appendValue('.')">,</button></td>
+            <td><button onclick="appendValue('+')">+</button></td>
+            
+        </tr>
+        <tr>
+            <td><button onclick="clear()">C</button></td>
+            <td><button onclick="appendValue('00')">00</button></td>
+            <td><button onclick="calculat()">=</button></td>
+
         </tr>
     </div>
 
