@@ -1,16 +1,16 @@
-let display = document.getElementById("display");
+let input = document.getElementById("input");
 
-function appendValue(value) {
-    display.value += value;
+function num(value) {
+    input.value += value;
 }
 
-function clear() {
-    display.value = "";
+function inputclear() {
+    input.value = "";
 }
 
 function calculate() {
     try {
-        display.value = eval(display.value);
+        input.value = eval(input.value);
     } catch (error) {
         alert("Invalid expression");
         clearDisplay();
